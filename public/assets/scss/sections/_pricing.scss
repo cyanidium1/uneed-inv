@@ -1,4 +1,4 @@
-@use "abstracts" as *;
+@use "../abstracts" as *;
 /***************************************
 * - Sections / Pricing
 ***************************************/
@@ -67,7 +67,7 @@
             position: absolute;
             top: 5px;
             left: 0;
-            background-image: url("../img/icons/icon-blue-check.svg");
+            background-image: url("../../img/icons/icon-blue-check.svg");
             width: 16px;
             height: 16px;
             content: "";

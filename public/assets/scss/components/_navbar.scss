@@ -1,7 +1,7 @@
 /***************************************
 * - Components / Navber
 ***************************************/
-@use "abstracts" as *;
+@use "../abstracts" as *;
 
 // Header Menu
 .header-nav {
@@ -28,7 +28,7 @@
             top: 50%;
             right: 0;
             transform: translateY(-50%);
-            background-image: url("../img/icons/icon-dark-chevron-down.svg");
+            background-image: url("../../img/icons/icon-dark-chevron-down.svg");
             width: 8px;
             height: 4px;
             content: "";
@@ -118,7 +118,7 @@
         top: 50%;
         right: 0;
         transform: translateY(-50%);
-        background-image: url("../img/icons/icon-dark-chevron-down.svg");
+        background-image: url("../../img/icons/icon-dark-chevron-down.svg");
         width: 8px;
         height: 4px;
         content: "";

@@ -1,4 +1,4 @@
-@use "abstracts" as *;
+@use "../abstracts" as *;
 /***************************************
 * Typography
 ***************************************/
@@ -239,7 +239,7 @@ a {
                 position: absolute;
                 top: 5px;
                 left: 0;
-                background-image: url("../img/icons/icon-blue-check.svg");
+                background-image: url("../../img/icons/icon-blue-check.svg");
                 background-size: 16px;
                 background-repeat: no-repeat;
                 width: 21px;

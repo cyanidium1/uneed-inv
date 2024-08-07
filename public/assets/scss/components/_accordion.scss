@@ -1,4 +1,4 @@
-@use "abstracts" as *;
+@use "../abstracts" as *;
 /***************************************
 * - Components / Accordion
 ***************************************/
@@ -51,14 +51,14 @@
     font-size: 22px;
     font-family: $title-font;
     &::after {
-        background-image: url("../img/icons/icon-dark-chevron-down.svg");
+        background-image: url("../../img/icons/icon-dark-chevron-down.svg");
         background-size: 11px;
         width: 10px;
         height: 10px;
     }
 
     &:not(.collapsed)::after {
-        background-image: url("../img/icons/icon-dark-chevron-down.svg");
+        background-image: url("../../img/icons/icon-dark-chevron-down.svg");
     }
 
     &:not(.collapsed) {

@@ -1,4 +1,3 @@
-
 /*-----------------------------------------------------------------------------------
 
     Template Name: Konsta
@@ -43,32 +42,31 @@
         - Pages / Team-Details
 -----------------------------------------------------------------------------------*/
 
-//Abstracts 
-@import "abstracts";
+//Abstracts
+@import './abstracts';
 
 /***************
 * Base - Default 
 ****************/
-@import "base";
+@import './base';
 
 /***************
 + Components:
 ****************/
-@import "components";
+@import './components';
 
 /***************
  + Sections:
 ****************/
-@import "sections";
+@import './sections';
 
 /***************
 + Layout:
 ****************/
-@import "layout";
+@import './layout';
 
 /***************
 + Pages: 
 ****************/
-@import "pages";
-
+@import './pages';
 
